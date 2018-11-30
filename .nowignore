@@ -1,0 +1,19 @@
+# Directories ---------------
+# GitHub configuration files
+.github
+# Yarn-installed packages
+node_modules
+# Files ---------------------
+# EditorConfig
+.editorconfig
+# Git
+.gitignore
+# Prettier
+.prettierignore
+.prettierrc.json
+# Logs
+*.log
+# Root Markdown files
+*.md
+# License
+license

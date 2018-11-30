@@ -1,0 +1,44 @@
+{
+  "name": "redirects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Redirects for my domains",
+  "bugs": "https://github.com/4cm4k1/redirects/issues",
+  "repository": "https://github.com/4cm4k1/redirects",
+  "license": "MIT",
+  "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
+  "contributors": [
+    "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "prettier": "prettier **/*.{js,json,md} --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "micro-dev": "^3.0.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0"
+  },
+  "renovate-config": {
+    "assignees": [
+      "4cm4k1"
+    ],
+    "extends": [
+      "config:base",
+      ":pinAllExceptPeerDependencies"
+    ],
+    "labels": [
+      "renovate"
+    ]
+  }
+}

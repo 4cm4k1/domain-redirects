@@ -1,0 +1,6 @@
+# Directories ---------------
+# Yarn-installed packages
+node_modules
+# Files ---------------------
+# Logs
+*.log

@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "micro-dev",
-    "prettier": "prettier **/*.{js,json,md} --write"
+    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write"
   },
   "husky": {
     "hooks": {

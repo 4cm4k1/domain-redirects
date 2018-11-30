@@ -22,14 +22,20 @@ Redirects for my domains.
 ## Installation
 
 ```shell
-yarn --production # installs only dependencies needed for production
+git clone https://github.com/4cm4k1/redirects # clones this repo
+cd redirects # changes directories
+yarn # installs dependencies
 ```
 
 ## Usage
 
 ```shell
-now # deploys to Now
-now alias # points aliases specified in now.json to deployment
+yarn dev # serves in dev mode at http://localhost:3000
+
+yarn prettier # runs `prettier` on source files
+
+now # deploys to Now (requires Now)
+now alias # points `aliases` in `now.json` to deployment (requires Now)
 ```
 
 ## [Code of Conduct](.github/code_of_conduct.md)

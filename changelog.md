@@ -1,8 +1,12 @@
 # Changelog
 
+## 1.0.1
+
+- Improves [`readme.md`](readme.md) instructions
+
 ## 1.0.0
 
-- Initial version
+- Initial release
 
 ## Contributors
 

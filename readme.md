@@ -15,6 +15,7 @@ Redirects for my domains.
 
 ## Prerequisites
 
+- [Git](https://github.com/git/git)
 - [Node](https://github.com/nodejs/node)
 - [Now](https://github.com/zeit/now-cli) _(optional, if you want to deploy)_
 - [Yarn](https://github.com/yarnpkg/yarn)

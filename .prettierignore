@@ -1,3 +1,7 @@
 # Directories ---------------
+# nyc test outputs
+.nyc_output
 # Yarn-installed packages
 node_modules
+# Test snapshots
+test/snapshots

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+- Adds unit testing, snapshots, and code coverage reporting using `ava`, `codecov`, `env-cmd`, `nyc`, and `supertest` (**note:** `CODECOV_TOKEN` might be moved in future from `.env` file to `now.json` if/when Now 2.0 supports CI testing; then `.env` file and `env-cmd` can be removed)
+- Adds `codecov` badge to `readme.md`
+- Adds `pre-commit` and `pre-push` Git hooks to `husky` to run tests and upload code coverage
+
 ## 1.0.2
 
 - Updates `readme.md` and `contributing.md`

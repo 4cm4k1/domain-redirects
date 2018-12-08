@@ -1,6 +1,10 @@
 # Directories ---------------
 # GitHub configuration files
 .github
+# nyc test outputs
+.nyc_output
+# nyc code coverage outputs
+coverage
 # Yarn-installed packages
 node_modules
 # Files ---------------------
@@ -11,6 +15,8 @@ node_modules
 # Prettier
 .prettierignore
 .prettierrc.json
+# Environment variables
+*.env
 # Logs
 *.log
 # Root Markdown files

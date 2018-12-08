@@ -1,6 +1,6 @@
 {
   "name": "domain-redirects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "Redirects for my (currently unused) domains – made with micro – deployed on ZEIT Now",
   "bugs": "https://github.com/4cm4k1/domain-redirects/issues",
@@ -12,12 +12,16 @@
   ],
   "main": "index.js",
   "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage/lcov.info",
     "dev": "micro-dev",
-    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write"
+    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
+    "report-coverage": "env-cmd .env codecov --file=coverage/lcov.info",
+    "test": "nyc --check-coverage --lines 100 ava"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged && yarn test",
+      "pre-push": "yarn coverage && yarn report-coverage"
     }
   },
   "dependencies": {
@@ -27,10 +31,16 @@
     "@types/micro": "^7.3.3",
     "@types/node": "^10.12.12",
     "@types/prettier": "^1.15.2",
+    "@types/supertest": "^2.0.6",
+    "ava": "1.0.0-rc.2",
+    "codecov": "^3.1.0",
+    "env-cmd": "^8.0.2",
     "husky": "^1.2.0",
     "micro-dev": "^3.0.0",
+    "nyc": "^13.1.0",
     "prettier": "^1.15.3",
-    "pretty-quick": "^1.8.0"
+    "pretty-quick": "^1.8.0",
+    "supertest": "^3.3.0"
   },
   "renovate-config": {
     "assignees": [

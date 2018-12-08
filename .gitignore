@@ -1,6 +1,12 @@
 # Directories ---------------
+# nyc test outputs
+.nyc_output
+# nyc code coverage outputs
+coverage
 # Yarn-installed packages
 node_modules
 # Files ---------------------
+# Environment variables
+*.env
 # Logs
 *.log

@@ -25,7 +25,7 @@
     "enabled": true,
     "silent": false
   },
-  "name": "redirects",
+  "name": "domain-redirects",
   "public": true,
   "regions": ["all"],
   "version": 2

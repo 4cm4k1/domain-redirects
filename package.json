@@ -1,10 +1,10 @@
 {
-  "name": "redirects",
-  "version": "1.0.1",
+  "name": "domain-redirects",
+  "version": "1.0.2",
   "private": true,
-  "description": "Redirects for my domains",
-  "bugs": "https://github.com/4cm4k1/redirects/issues",
-  "repository": "https://github.com/4cm4k1/redirects",
+  "description": "Redirects for my (currently unused) domains – made with micro – deployed on ZEIT Now",
+  "bugs": "https://github.com/4cm4k1/domain-redirects/issues",
+  "repository": "https://github.com/4cm4k1/domain-redirects",
   "license": "MIT",
   "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
   "contributors": [
@@ -24,6 +24,9 @@
     "micro": "^9.3.3"
   },
   "devDependencies": {
+    "@types/micro": "^7.3.3",
+    "@types/node": "^10.12.12",
+    "@types/prettier": "^1.15.2",
     "husky": "^1.2.0",
     "micro-dev": "^3.0.0",
     "prettier": "^1.15.3",

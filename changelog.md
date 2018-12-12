@@ -1,5 +1,7 @@
 # Changelog
 
+- Upgrades `@types/supertest`
+
 ## 1.0.3
 
 - Adds unit testing, snapshots, and code coverage reporting using `ava`, `codecov`, `env-cmd`, `nyc`, and `supertest` (**note:** `CODECOV_TOKEN` might be moved in future from `.env` file to `now.json` if/when Now 2.0 supports CI testing; then `.env` file and `env-cmd` can be removed)

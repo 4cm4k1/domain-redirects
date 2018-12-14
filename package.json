@@ -15,7 +15,7 @@
     "coverage": "nyc report --reporter=text-lcov > coverage/lcov.info",
     "dev": "micro-dev",
     "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
-    "report-coverage": "env-cmd .env codecov --file=coverage/lcov.info",
+    "report-coverage": "env-cmd .env codecov --disable=gcov --file=coverage/lcov.info",
     "test": "nyc --check-coverage --lines 100 ava"
   },
   "husky": {

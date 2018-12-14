@@ -9,6 +9,7 @@
 - Tweaks tests to account for the above
 - Adds `test` to `.nowignore`
 - Adds additional commands to `readme.md`
+- Adds `--disable=gcov` to `report-coverage` command
 
 ## 1.0.3
 

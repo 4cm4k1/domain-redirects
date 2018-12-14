@@ -35,10 +35,17 @@ yarn # installs dependencies
 ```shell
 yarn dev # serves in dev mode at http://localhost:3000
 
+# these four commands run automatically
+# on `pre-commit` and `pre-push` using `husky`
 yarn prettier # runs `prettier` on source files
+yarn test # runs tests with `ava`
+yarn coverage # generates code coverage reports with `nyc`
+yarn report-coverage # uploads code coverage reports with `codecov`
 
+# these two commands run automatically when commits are pushed
+# to this GitHub repo (`alias` only occurs on `master` branch)
 now # deploys to Now (requires Now)
-now alias # points `aliases` in `now.json` to deployment (requires Now)
+now alias # points aliases in `now.json` to deployment (requires Now)
 ```
 
 ## [Code of Conduct](.github/code_of_conduct.md)

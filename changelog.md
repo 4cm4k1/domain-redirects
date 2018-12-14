@@ -1,6 +1,14 @@
 # Changelog
 
-- Upgrades `@types/supertest`
+## 1.0.4
+
+- Upgrades `@types/node`, `@types/supertest`, and `husky` to latest versions
+- Uses `canary` version of `@now/node`
+- Adds `routes[0].dest` and `github.autoJobCancelation` in `now.json`
+- Adds requests’ path to `Location` header for better redirection and to avoid `404`s from Now
+- Tweaks tests to account for the above
+- Adds `test` to `.nowignore`
+- Adds additional commands to `readme.md`
 
 ## 1.0.3
 

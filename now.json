@@ -9,7 +9,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@now/node"
+      "use": "@now/node@canary"
     }
   ],
   "routes": [
@@ -17,11 +17,13 @@
       "src": "/.*",
       "headers": {
         "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
-      }
+      },
+      "dest": "index.js"
     }
   ],
   "github": {
     "autoAlias": true,
+    "autoJobCancelation": true,
     "enabled": true,
     "silent": false
   },

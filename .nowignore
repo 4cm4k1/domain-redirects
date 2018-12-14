@@ -7,6 +7,8 @@
 coverage
 # Yarn-installed packages
 node_modules
+# Tests - until Now 2.0 supports CI testing we don’t need to upload this
+test
 # Files ---------------------
 # EditorConfig
 .editorconfig

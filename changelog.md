@@ -1,5 +1,7 @@
 # Changelog
 
+- Upgrades `ava` to latest version
+
 ## 1.0.4
 
 - Upgrades `@types/node`, `@types/supertest`, and `husky` to latest versions

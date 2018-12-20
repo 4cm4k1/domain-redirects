@@ -1,6 +1,6 @@
 # Changelog
 
-- Upgrades `ava` to latest version
+- Upgrades `@types/node`, `ava`, and `husky` to latest version
 
 ## 1.0.4
 

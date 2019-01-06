@@ -1,11 +1,5 @@
 {
-  "alias": [
-    "www.anthony.codes",
-    "thedebug.life",
-    "www.thedebug.life",
-    "anthony.app",
-    "www.anthony.app"
-  ],
+  "alias": ["www.anthony.codes", "anthony.app", "www.anthony.app"],
   "builds": [
     {
       "src": "index.js",

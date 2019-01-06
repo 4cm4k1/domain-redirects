@@ -1,6 +1,7 @@
 # Changelog
 
 - Upgrades `@types/node`, `ava`, and `husky` to latest version
+- Removes `thedebug.life` from domain list
 
 ## 1.0.4
 

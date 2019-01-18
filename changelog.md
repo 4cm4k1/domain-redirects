@@ -1,6 +1,6 @@
 # Changelog
 
-- Upgrades `@types/node`, `ava`, `husky`, and `pretty-quick` to latest versions
+- Upgrades `@types/node`, `ava`, `husky`, `pretty-quick`, and `supertest` to latest versions
 - Removes `thedebug.life` from domain list
 - Removes unneeded `const` keywords
 

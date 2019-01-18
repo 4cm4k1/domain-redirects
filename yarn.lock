@@ -3407,16 +3407,17 @@ pretty-ms@^4.0.0:
   dependencies:
     parse-ms "^2.0.0"
 
-pretty-quick@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/pretty-quick/-/pretty-quick-1.8.1.tgz#af7b046fdd1d36c29f558c5585aa80db30c7f1db"
-  integrity sha512-HPCl9fVtifPAgkoD9ZtuZRfeCZO/mzNdAOqCNEFBLRanOyhNRZpY97UnFZAdCwumCx9LQUJwCCsW4qleQDjP2g==
+pretty-quick@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/pretty-quick/-/pretty-quick-1.10.0.tgz#d86cc46fe92ed8cfcfba6a082ec5949c53858198"
+  integrity sha512-uNvm2N3UWmnZRZrClyQI45hIbV20f5BpSyZY51Spbvn4APp9+XLyX4bCjWRGT3fGyVyQ/2/iw7dbQq1UUaq7SQ==
   dependencies:
     chalk "^2.3.0"
     execa "^0.8.0"
     find-up "^2.1.0"
     ignore "^3.3.7"
     mri "^1.1.0"
+    multimatch "^3.0.0"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -4119,10 +4120,10 @@ supertap@^1.0.0:
     serialize-error "^2.1.0"
     strip-ansi "^4.0.0"
 
-supertest@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/supertest/-/supertest-3.3.0.tgz#79b27bd7d34392974ab33a31fa51a3e23385987e"
-  integrity sha512-dMQSzYdaZRSANH5LL8kX3UpgK9G1LRh/jnggs/TI0W2Sz7rkMx9Y48uia3K9NgcaWEV28tYkBnXE4tiFC77ygQ==
+supertest@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/supertest/-/supertest-3.4.1.tgz#91b19ea34804c205769d0ff5ad947aff3eb2731d"
+  integrity sha512-r4AmsjjKxC50LxGACe/E4xKjau2amiFlj3aCT2sZCRig2o3l4XFN6Acw7crDu4d8Af1f5chafIyLkQ1mac/boA==
   dependencies:
     methods "^1.1.2"
     superagent "^3.8.3"

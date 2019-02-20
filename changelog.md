@@ -2,7 +2,7 @@
 
 ## Master
 
-- Upgrades `@types/node`, `@types/prettier`, `ava`, `husky`, `nyc`, `prettier`, `pretty-quick`, and `supertest` to latest versions
+- Upgrades `@types/node`, `@types/prettier`, `ava`, `codecov`, `husky`, `nyc`, `prettier`, `pretty-quick`, and `supertest` to latest versions
 - Removes `thedebug.life` from domain list
 - Removes unneeded `const` keywords
 

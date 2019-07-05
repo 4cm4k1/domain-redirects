@@ -25,19 +25,19 @@
     }
   },
   "dependencies": {
-    "micro": "^9.3.5-canary.1"
+    "micro": "^9.3.5-canary.2"
   },
   "devDependencies": {
-    "@types/node": "^12.0.8",
+    "@types/node": "^12.0.12",
     "@types/prettier": "^1.16.4",
-    "@types/supertest": "^2.0.7",
+    "@types/supertest": "^2.0.8",
     "ava": "2.1.0",
     "codecov": "^3.5.0",
     "env-cmd": "^9.0.3",
-    "husky": "^2.4.1",
+    "husky": "^3.0.0",
     "nyc": "^14.1.1",
     "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.0",
+    "pretty-quick": "^1.11.1",
     "supertest": "^4.0.2"
   },
   "renovate-config": {

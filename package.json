@@ -28,10 +28,10 @@
     "micro": "^9.3.5-canary.2"
   },
   "devDependencies": {
-    "@types/node": "^12.0.12",
+    "@types/node": "^12.6.2",
     "@types/prettier": "^1.16.4",
     "@types/supertest": "^2.0.8",
-    "ava": "2.1.0",
+    "ava": "2.2.0",
     "codecov": "^3.5.0",
     "env-cmd": "^9.0.3",
     "husky": "^3.0.0",

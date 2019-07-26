@@ -25,16 +25,15 @@
     }
   },
   "dependencies": {
-    "micro": "^9.3.5-canary.2"
+    "micro": "^9.3.5-canary.3"
   },
   "devDependencies": {
-    "@types/node": "^12.6.2",
-    "@types/prettier": "^1.16.4",
+    "@types/node": "^12.6.8",
     "@types/supertest": "^2.0.8",
     "ava": "2.2.0",
     "codecov": "^3.5.0",
     "env-cmd": "^9.0.3",
-    "husky": "^3.0.0",
+    "husky": "^3.0.1",
     "nyc": "^14.1.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",

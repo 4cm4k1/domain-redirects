@@ -1,5 +1,15 @@
 {
-  "alias": ["www.anthony.codes", "anthony.app", "www.anthony.app"],
+  "alias": [
+    "www.anthony.codes",
+    "anthony.app",
+    "www.anthony.app",
+    "antifa.app",
+    "www.antifa.app",
+    "antifa.dev",
+    "www.antifa.dev",
+    "antifa.sh",
+    "www.antifa.sh"
+  ],
   "builds": [
     {
       "src": "index.js",
